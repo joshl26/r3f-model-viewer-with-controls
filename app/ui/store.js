@@ -1,11 +1,20 @@
-import { proxy } from 'valtio'
+import { proxy } from "valtio";
 
 const state = proxy({
   intro: true,
-  colors: ['#ccc', '#EFBD4E', '#80C670', '#726DE8', '#EF674E', '#353934'],
-  decals: ['react', 'three2', 'pmndrs'],
-  color: '#EFBD4E',
-  decal: 'three2'
-})
+  colors: [
+    "#ffe4c4",
+    "#353934",
+    "#ccc",
+    "#800020",
+    "#ffc0cb",
+    "#a020f0",
+    "#008080",
+    "#bfefff",
+  ],
+  decals: ["react", "three2", "pmndrs"],
+  color: "#ffe4c4",
+  decal: "three2",
+});
 
-export { state }
+export { state };
