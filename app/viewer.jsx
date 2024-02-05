@@ -1,11 +1,13 @@
+"use client";
+
 import React from "react";
 import Canvas from "./canvas";
+import Overlay from "./overlay";
 
 const Viewer = () => {
   return (
     <div>
-      <h1 style={{ color: "black" }}>Viewer</h1>
-      <div style={{ height: "100px" }}></div>
+      <div style={{ height: "25px" }}></div>
       <div
         style={{
           margin: "auto",
@@ -14,6 +16,7 @@ const Viewer = () => {
           width: "500px",
         }}
       >
+        <Overlay />
         <Canvas />
       </div>
     </div>
