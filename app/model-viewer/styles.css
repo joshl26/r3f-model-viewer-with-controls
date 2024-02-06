@@ -1,0 +1,20 @@
+.color-options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: transform 0.6s cubic-bezier(0.85, 0, 0.15, 1);
+  }
+  
+  .circle:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }

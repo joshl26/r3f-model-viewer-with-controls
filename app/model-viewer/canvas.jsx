@@ -14,7 +14,7 @@ import {
 } from "@react-three/drei";
 import { easing } from "maath";
 import { useSnapshot } from "valtio";
-import { state } from "./ui/store.js";
+import { state } from "./store.js";
 
 const AnimationCanvas = ({ position = [0, 0, 2.5], fov = 25 }) => (
   <Canvas

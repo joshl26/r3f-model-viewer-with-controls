@@ -3,6 +3,7 @@
 import React from "react";
 import Canvas from "./canvas";
 import Overlay from "./overlay";
+import "./styles.css";
 
 const Viewer = () => {
   return (

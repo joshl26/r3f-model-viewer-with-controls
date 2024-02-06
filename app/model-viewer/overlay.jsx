@@ -1,6 +1,6 @@
 import React from "react";
 import { useSnapshot } from "valtio";
-import { state } from "./ui/store.js";
+import { state } from "./store.js";
 
 const Overlay = () => {
   const snap = useSnapshot(state);
@@ -12,7 +12,7 @@ const Overlay = () => {
         zIndex: "1",
         display: "flex",
         flexDirection: "column",
-        alignItems: "center"
+        alignItems: "center",
       }}
     >
       <div className="color-options">

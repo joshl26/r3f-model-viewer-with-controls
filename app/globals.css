@@ -27,7 +27,7 @@ body {
   }
 }
 
-.color-options {
+/* .color-options {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -46,4 +46,4 @@ body {
 .circle:hover {
   transform: scale(1.2);
   cursor: pointer;
-}
+} */
